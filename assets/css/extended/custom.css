@@ -1,19 +1,22 @@
 body {
-    background-image: url("/image_9.png");   /* 确认文件名正确 */
-    background-attachment: fixed;              /* 背景固定，不随滚动条走 */
-    background-size: cover;                    /* 全屏覆盖 */
-    background-position: center;               /* 图片居中 */
-    background-repeat: no-repeat;              /* 不重复 */
+    /* 尝试使用绝对路径，并去掉多余引号 */
+    background-image: url("/image_9.png") !important; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2e2e33; /* 图片没出来时的保底颜色 */
 }
 
-/* 为了让文字看得清，给内容区域加一点半透明黑色背景 */
+/* 调整一下中间白框的透明度，让你能看清背景 */
 .main {
-    background: rgba(0, 0, 0, 0.6);          /* 使用 60% 透明的黑色 */
-    padding: 30px;                             /* 留点边距 */
-    border-radius: 8px;                       /* 圆角 */
+    background: rgba(255, 255, 255, 0.15) !important; /* 改成更透明的白色 */
+    backdrop-filter: blur(5px); /* 给背景加一点磨砂玻璃效果，超高级 */
+    padding: 20px;
+    border-radius: 8px;
 }
 
-/* 让正文字体颜色变成白色，否则在黑色背景上看不清 */
-.post-title, .post-content {
-    color: #ffffff;
+/* 既然背景是深色的，标题文字改成白色 */
+.first-entry .entry-header h2, .post-title, .post-content {
+    color: #ffffff !important;
 }
