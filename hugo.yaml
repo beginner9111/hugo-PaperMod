@@ -8,9 +8,8 @@ params:
     text: "首页"
     icon: "/avatar.jpg"
     iconHeight: 35
-
   homeInfoParams:
-    Title: "你好，欢迎来到我的空间 👋"
-    Content: "这是我的个人博客，欢迎常来坐坐"
+    Title: "你好 👋"
+    Content: "欢迎来到我的个人博客"
     imageUrl: "/avatar.jpg"
     imageSize: 120
