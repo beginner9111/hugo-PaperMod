@@ -10,4 +10,4 @@ params:
     Title: "你好 👋"
     Content: "欢迎来到我的个人博客"
     imageUrl: "/avatar.jpg"
-    imageSize: 220
+    imageSize: 183
