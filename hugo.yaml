@@ -1,6 +1,5 @@
 baseURL: "https://151681.xyz/"
 title: "我的数字花园"
-theme: "hugo-PaperMod"
 languageCode: "zh-cn"
 params:
   label:
