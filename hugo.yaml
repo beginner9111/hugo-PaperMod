@@ -4,13 +4,11 @@ theme: "hugo-PaperMod"
 languageCode: "zh-cn"
 
 params:
-  # 1. 顶部左侧的小头像
   label:
     text: "首页"
     icon: "/avatar.jpg"
     iconHeight: 35
 
-  # 2. 首页中间的大欢迎语和头像
   homeInfoParams:
     Title: "你好，欢迎来到我的空间 👋"
     Content: "这是我的个人博客，欢迎常来坐坐。"
