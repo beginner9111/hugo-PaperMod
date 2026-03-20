@@ -2,6 +2,8 @@ baseURL: "https://151681.xyz/"
 title: "镀锌线的二三事（怪名字"
 languageCode: "zh-cn"
 params:
+params:
+  busuanzi: true    #
   label:
     text: "首页"
     icon: "/avatar.jpg"
