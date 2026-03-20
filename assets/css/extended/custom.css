@@ -1,0 +1,19 @@
+body {
+    background-image: url("/image_9.png");   /* 确认文件名正确 */
+    background-attachment: fixed;              /* 背景固定，不随滚动条走 */
+    background-size: cover;                    /* 全屏覆盖 */
+    background-position: center;               /* 图片居中 */
+    background-repeat: no-repeat;              /* 不重复 */
+}
+
+/* 为了让文字看得清，给内容区域加一点半透明黑色背景 */
+.main {
+    background: rgba(0, 0, 0, 0.6);          /* 使用 60% 透明的黑色 */
+    padding: 30px;                             /* 留点边距 */
+    border-radius: 8px;                       /* 圆角 */
+}
+
+/* 让正文字体颜色变成白色，否则在黑色背景上看不清 */
+.post-title, .post-content {
+    color: #ffffff;
+}
