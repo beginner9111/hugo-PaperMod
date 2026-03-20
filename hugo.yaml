@@ -11,6 +11,6 @@ params:
 
   homeInfoParams:
     Title: "你好，欢迎来到我的空间 👋"
-    Content: "这是我的个人博客，欢迎常来坐坐。"
+    Content: "这是我的个人博客，欢迎常来坐坐"
     imageUrl: "/avatar.jpg"
     imageSize: 120
