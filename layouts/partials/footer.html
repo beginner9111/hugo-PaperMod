@@ -148,3 +148,34 @@
     });
 </script>
 {{- end }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<div id="aplayer"></div>
+
+<script>
+  const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,          // 吸附在左下角，不挡正文
+    lrcType: 0,           // 暂时不加歌词
+    theme: '#b026ff',     // 使用紫色主题，匹配你的背景
+    audio: [{
+      name: 'Cyber Garden',
+      artist: 'Retro Glitch',
+      // 下面是一个演示用的直链（如果失效了可以换成你自己的 mp3 地址）
+      url: 'https://www.sample-videos.com/audio/mp3/wave.mp3', 
+      cover: '/avatar.jpg' // 先用你的头像当封面
+    }]
+  });
+</script>
+
+<style>
+  /* 微调播放器颜色，让它在深色背景下更显眼 */
+  .aplayer.aplayer-fixed .aplayer-body {
+      background: rgba(0, 0, 0, 0.8) !important;
+      color: #fff !important;
+  }
+  .aplayer .aplayer-info .aplayer-music .aplayer-title {
+      color: #fff !important;
+  }
+</style>
