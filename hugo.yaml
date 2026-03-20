@@ -1,5 +1,5 @@
 baseURL: "https://151681.xyz/"
-title: "我的数字花园"
+title: "镀锌线的二三事（怪名字"
 languageCode: "zh-cn"
 params:
   label:
@@ -8,6 +8,6 @@ params:
     iconHeight: 35
   homeInfoParams:
     Title: "你好 👋"
-    Content: "欢迎来到我的个人博客"
+    Content: "欢迎来到我的个人网站"
     imageUrl: "/avatar.jpg"
     imageSize: 183
