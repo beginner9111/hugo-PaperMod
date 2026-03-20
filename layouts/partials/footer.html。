@@ -191,3 +191,13 @@
       color: #fff !important;
   }
 </style>
+/* 强制提升播放器层级 */
+.aplayer.aplayer-fixed {
+    z-index: 9999 !important;
+}
+
+/* 确保背景图显示的最终补丁 */
+body {
+    background-image: url("/image_9.png") !important;
+    background-color: transparent !important; /* 别让底色挡住图 */
+}
