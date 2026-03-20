@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: beginner9111/hugo-PaperMod # 举例: jack/my-blog
+  branch: main
+
+media_folder: "static/images" # 存图片的文件夹
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "我的文章"
+    folder: "content/posts" # 重要：确认你放文章的文件夹路径
+    create: true
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "日期", name: "date", widget: "datetime"}
+      - {label: "内容", name: "body", widget: "markdown"}
