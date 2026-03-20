@@ -1,17 +1,19 @@
 backend:
   name: github
-  repo: beginner9111/hugo-PaperMod # 举例: jack/my-blog
-  branch: main
+  repo: beginner9111/hugo-PaperMod # 已经帮你填好你的仓库名了
+  branch: master # 你的截图显示主分支是 master
 
-media_folder: "static/images" # 存图片的文件夹
+media_folder: "static/images"
 public_folder: "/images"
 
 collections:
   - name: "posts"
-    label: "我的文章"
-    folder: "content/posts" # 重要：确认你放文章的文件夹路径
+    label: "我的博文"
+    folder: "content/posts" # Hugo 默认的文章存放路径
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "日期", name: "date", widget: "datetime"}
-      - {label: "内容", name: "body", widget: "markdown"}
+      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "摘要", name: "summary", widget: "string", required: false}
+      - {label: "正文", name: "body", widget: "markdown"}
