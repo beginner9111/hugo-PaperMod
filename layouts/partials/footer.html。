@@ -168,20 +168,3 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <div id="aplayer"></div>
-
-<script>
-  const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    fixed: true,
-    theme: '#b026ff',
-    audio: [{
-      name: '我的背景音乐',   /* <--- 这里改歌名 */
-      artist: 'Admin',       /* <--- 这里改歌手 */
-      url: '/music.mp3',     /* <--- 这里改音乐文件路径 */
-      cover: '/avatar.jpg'   /* <--- 这里改封面图 */
-    }]
-  });
-</script>
-<footer class="footer">
-    <span>&copy; {{ .Date.Format "2006" }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
-</footer>
