@@ -1,5 +1,5 @@
 baseURL: "https://151681.xyz/"
-title: "镀锌线的二三事（怪名字"
+title: "镀锌线的二三事"
 languageCode: "zh-cn"
 
 params:
@@ -9,7 +9,7 @@ params:
     icon: "/avatar.jpg"
     iconHeight: 35
   homeInfoParams:
-    Title: "你好 👋"
+    Title: "你好 👋🥰"
     Content: "欢迎来到我的个人网站"
     imageUrl: "/avatar.jpg"
     imageSize: 183
