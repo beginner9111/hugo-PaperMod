@@ -10,6 +10,8 @@ params:
     iconHeight: 35
   homeInfoParams:
     Title: "你好 👋🥰"
-    Content: "欢迎来到我的个人网站"
+    Content: "欢迎来到我的个人网站
+
+本站是我用来写一些东西浪费时间的没有用处，像我一样:("
     imageUrl: "/avatar.jpg"
     imageSize: 183
